@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>Background</title>
+    <link rel="stylesheet" href="mmm.css">
+    <script src="mmm.js" defer></script>
+</head>
+<body>
+    <button id="button">Change ImageColor</button>
+    <p id="status">OFF</p>
+    <img id="sun" src="html-image/1.png" width="385px;">
+        <script>
+            const status = document.getElementById("status");
+            button.style.paddingTop = 15+"px";
+            button.style.paddingBottom = 15+"px";
+            button.style.paddingLeft = 25+"px";
+            button.style.paddingRight = 25+"px";
+
+            status.style.color="#ff0000";
+            status.style.fontWeight = "bold";
+            button.addEventListener("click", () => {
+            
+            if (bgcc === 0) {
+                status.textContent = "ON"; 
+                status.style.color="#1bb600";  
+            } else {
+                status.textContent = "OFF";
+                status.style.color= "#ff0000";   
+            }
+            });
+
+            
+            
+            
+            button.style.marginBottom = 20+"px";
+        </script>
+    <button id="button2">Change Image</button>
+</body>
+</html>
