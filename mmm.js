@@ -43,7 +43,7 @@ button2.addEventListener("click", () => {
   if(imgno===6){
     imgno=1;
   } 
-  sun.src = `html-image/${imgno}.png`;
+  sun.src = `${imgno}.png`;
 });
 
 
